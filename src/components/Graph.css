@@ -1,0 +1,51 @@
+.graph>h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 600;
+    text-decoration: underline;
+   }
+   
+   .graph-des{
+     display: flex;
+   }
+   
+   .values{
+     margin-left: 15%;
+     margin-top: 1%;
+     display: flex;
+     flex-direction: column-reverse;
+     width: 5%;
+       border-right: 1px solid;
+       text-align: right;
+   
+   }
+   .values>p{
+     margin: 30px auto 0px;
+     font-size: 17px;
+   }
+   
+   .main-graph{
+     width: 70%;
+     border-bottom: 1px solid;
+     position: relative;
+   }
+   
+   .horiz{
+     display: flex;
+     position: absolute;
+     bottom: -31px;
+   }
+   
+   .horiz>p{
+     margin: 0px 0px auto 60px;
+     font-size: 16px;
+   }
+
+   .rep{
+       display: flex;
+      position: absolute;
+      bottom: 0;
+   }
